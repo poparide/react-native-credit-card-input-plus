@@ -67,8 +67,8 @@ export default class CreditCardInput extends Component {
 
     formStyle: ViewPropTypes.style,
     verticalFormRowStyle: ViewPropTypes.style,
-    labelStyle: Text.propTypes.style,
-    inputStyle: Text.propTypes.style,
+    labelStyle: TextInputPropTypes.style,
+    inputStyle: TextInputPropTypes.style,
     inputContainerStyle: ViewPropTypes.style,
 
     validColor: PropTypes.string,
