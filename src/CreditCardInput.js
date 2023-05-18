@@ -307,7 +307,7 @@ export default class CreditCardInput extends Component {
       case 'postalCode':
         return <CCInput {...this._inputProps("postalCode")}
           key={fieldName}
-          keyboardType="numeric"
+          keyboardType="default"
           containerStyle={[s.inputContainer, inputContainerStyle, { width: fieldWidth || POSTAL_CODE_INPUT_WIDTH }]} />;
       default:
         return null;
